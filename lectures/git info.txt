@@ -14,3 +14,9 @@ Step 5 - Tick on the checkbox which is in the  right bottom corner
 Step 6 - Click on cross of Welcome 
  
 Ques : How to import a java project in eclipse 
+step1 - click on file(which is at left top corner)
+step2 - click on import 
+step3 - click on browse 
+step4 - goto till java8 folder location(C:\Users\DELL\java8batch21\java8)
+step5 - click on finish button 
+
