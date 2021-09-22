@@ -1,0 +1,16 @@
+How to clone repository from github
+Step 1 -Copy the Link  https://github.com/mahendrakr/java8batch21.git
+Step 2 - Go to the location  C:\Users\Your system Name 
+Step 3 - Type CMD on the Address Bar and press enter 
+Step 4 - Type git clone https://github.com/mahendrakr/java8batch21.git (on Opened CMD)
+Step 5 - Now , repository has been clone to your system
+
+Ques: How to setup workspace in eclipse
+Step 1 - Copy the location of java8batch21 from your system 
+Step 2 - Open eclipse 
+Step 3 - paste the java8batch21 location into the opened eclipse 
+Step 4 - Click on the launch button 
+Step 5 - Tick on the checkbox which is in the  right bottom corner 
+Step 6 - Click on cross of Welcome 
+ 
+Ques : How to import a java project in eclipse 
