@@ -7,7 +7,7 @@ class Animal{}
 class Student{}
 class Dog{}
 syntax of a class in java 
-class <name><{}>[;]
+class <Name><{}>[;]
 
 
 Object: It is an instance of a class.
@@ -21,3 +21,31 @@ Example
 String name;
  float fee;
 
+How to create a method in java ?
+[modifiers] <return type> <method name> <()> <{}> [;]
+for example : 
+		void read(){} {doesn't return value}
+		int getAge(){
+		return 18;
+		}
+		String getNmae(){
+		return "Aadi";
+		}
+		int add(int a , int b , int c){
+		return a+b+c;
+		}
+		void m1(int age , String name){
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		 
