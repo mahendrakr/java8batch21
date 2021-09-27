@@ -22,8 +22,8 @@ String name;
  float fee;
 
 How to create a method in java ?
-[modifiers] <return type> <method name> <()> <{}> [;]
-for example : 
+	[modifiers] <return type> <method name> <()> <{}> [;]
+	for example : 
 		void read(){} {doesn't return value}
 		int getAge(){
 		return 18;
@@ -37,7 +37,13 @@ for example :
 		void m1(int age , String name){
 		}
 		
-		
+	How can we access variables and method ?
+		step 1 : Create an object of the class, say (Student , Teacher, Animal, Employee)
+					Student stu = new Student();
+					Employee e = new Employee();
+					Animal a = new Animal();
+					Teacher t = new Teacher();
+		step 2 : 
 		
 		
 		
