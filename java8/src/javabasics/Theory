@@ -1,0 +1,74 @@
+Class: It is a blueprint (design/concept) from where we can create an object.
+Purpose of a class in java, To represent a real world category.
+How can we represent a category in java? Represent animal, student, dog
+We can represent category in java with the help of class.
+For example 
+class Animal{}
+class Student{}
+class Dog{}
+syntax of a class in java 
+class <Name><{}>[;]
+
+
+Object: It is an instance of a class.
+It has properties (variables). 
+It has behaviours(method).
+
+How to create a variable in java 
+<datatype> <variable name> <;>
+Example
+ int age; 
+String name;
+ float fee;
+
+How to create a method in java ?
+	[modifiers] <return type> <method name> <()> <{}> [;]
+	for example : 
+		void read(){} {doesn't return value}
+		int getAge(){
+		return 18;
+		}
+		String getNmae(){
+		return "Aadi";
+		}
+		int add(int a , int b , int c){
+		return a+b+c;
+		}
+		void m1(int age , String name){
+		}
+		
+	How can we access variables and method ?
+		step 1 : Create an object of the class, say (Student , Teacher, Animal, Employee)
+					Student stu = new Student();
+					Employee e = new Employee();
+					Animal a = new Animal();
+					Teacher t = new Teacher();
+		step 2 : 
+		
+	"Any Fool can write code that a Computer can understand	.
+	Good Programmers write code that Humans can understand ."
+		
+	Identifiers (Any name in java is identifier)
+	For example:
+    It could be a class name .(Class name must start with capital letter and it should be noun and it should start with alphabet)
+	It could be a method name.( Method name should be a combination of verb and noun )
+	It could be an argument name .
+	It could be a variable name .(It follow the same rule of class)
+	
+	NOTE: Class ,Variable ,Argument name should be a Noun .
+	Variable name should be a Verb or  verb combination(getName ) .
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		 

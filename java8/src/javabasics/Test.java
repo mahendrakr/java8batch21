@@ -6,4 +6,4 @@ public class Test {
  System.out.println("Welcome to java8 batch");
 	}
 
-}
+};

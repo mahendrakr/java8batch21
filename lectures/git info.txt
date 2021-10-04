@@ -19,6 +19,10 @@ step2 - click on import
 step3 - click on browse 
 step4 - goto till java8 folder location(C:\Users\DELL\java8batch21\java8)
 step5 - click on finish button 
+How to configure git ?
+Step1: git config --global user.email "mahendrakumar7028@gmail.com"
+Step2: git config --global user.name "mahendrakr"
+
 
 Ques : How to configure git in your local system
 Step1 - git config --global user.email "mahendrakumar7028@gmail.com"
