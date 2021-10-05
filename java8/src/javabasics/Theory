@@ -44,8 +44,20 @@ How to create a method in java ?
 					Animal a = new Animal();
 					Teacher t = new Teacher();
 		step 2 : 
-					
 		
+	"Any Fool can write code that a Computer can understand	.
+	Good Programmers write code that Humans can understand ."
+		
+	Identifiers (Any name in java is identifier)
+	For example:
+    It could be a class name .(Class name must start with capital letter and it should be noun and it should start with alphabet)
+	It could be a method name.( Method name should be a combination of verb and noun )
+	It could be an argument name .
+	It could be a variable name .(It follow the same rule of class)
+	
+	NOTE: Class ,Variable ,Argument name should be a Noun .
+	Variable name should be a Verb or  verb combination(getName ) .
+
 		
 		
 		
