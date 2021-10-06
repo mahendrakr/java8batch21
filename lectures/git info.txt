@@ -27,6 +27,7 @@ Step2: git config --global user.name "mahendrakr"
 Ques : How to configure git in your local system
 Step1 - git config --global user.email "mahendrakumar7028@gmail.com"
 step2 - git config --global user.name "mahendrakr"
+Hii Ankush
 
 
  

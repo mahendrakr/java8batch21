@@ -43,8 +43,8 @@ How to create a method in java ?
 					Employee e = new Employee();
 					Animal a = new Animal();
 					Teacher t = new Teacher();
-		step 2 : 
-		
+		step 2 : 	<refrence variable name> <.> <variable name/method name><;>
+					e.g; String name = stu.getName();					
 	"Any Fool can write code that a Computer can understand	.
 	Good Programmers write code that Humans can understand ."
 		
@@ -57,13 +57,7 @@ How to create a method in java ?
 	
 	NOTE: Class ,Variable ,Argument name should be a Noun .
 	Variable name should be a Verb or  verb combination(getName ) .
-	
-	
-	
-	
-	
-	
-	
+
 		
 		
 		
