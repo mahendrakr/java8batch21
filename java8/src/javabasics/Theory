@@ -43,8 +43,8 @@ How to create a method in java ?
 					Employee e = new Employee();
 					Animal a = new Animal();
 					Teacher t = new Teacher();
-		step 2 : 	<refrence variable name> <.> <variable name/method name><;>
-					e.g; String name = stu.getName();					
+		step 2 : 
+		
 	"Any Fool can write code that a Computer can understand	.
 	Good Programmers write code that Humans can understand ."
 		
@@ -57,7 +57,30 @@ How to create a method in java ?
 	
 	NOTE: Class ,Variable ,Argument name should be a Noun .
 	Variable name should be a Verb or  verb combination(getName ) .
-
+	
+	ques. Difference between static or non static members/ Instance members.
+	Ans.(1) To access instance members you must create an object first whereas for static members you can access without creating an object.
+	(2) non static members consumes less memory as compare to static members.
+	(3) non static members get memory when object is created whereas static members get memory at class loading time.
+	(4) non static members can not access in static context whereas static members can be access from instance context.
+	
+	Block - There are two types of block 1. static block  2. non static block
+	eg. static {}
+	eg. {}
+	Purpose - To initialize the variables apart from constructor 
+	
+	Constructor - To initialize the variables
+	(1).constructor name must be same as class name 
+	(2).Constructor does not have return type even the void
+	(3).Valid modifiers for constructor PPP
+	
+	
+	
+	
+	
+	
+	
+	
 		
 		
 		
