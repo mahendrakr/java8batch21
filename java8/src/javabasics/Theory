@@ -74,6 +74,11 @@ How to create a method in java ?
 	(2).Constructor does not have return type even the void
 	(3).Valid modifiers for constructor PPP
 	
+	que. difference between method and constructor
+	1. constructor is used to initialize an object where as method is used to write the logic inside it.
+	2. constructor name must be same as class name where as method name could be anything .
+	3. constructor dose not have return type (even though void )where as method must have a return type.
+	 
 	
 	
 	
