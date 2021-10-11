@@ -18,15 +18,16 @@ public class InstanceV {
 		return 10;		
 	}
 	public static int getX() {
-		System.out.println(a);
+		System.out.println(x);
 		return 100;
 	}
-	public 
-public static void main(String[] args) {
-	//int result1 = InstanceV.a;
-	//int result2 = InstanceV.b
-			
+	public static void main(String[] args) {
+		InstanceV iv = new InstanceV();
+		int a = iv.a;
+		System.out.println(a);
+	} 
+
 	
 	
 }
-}
+

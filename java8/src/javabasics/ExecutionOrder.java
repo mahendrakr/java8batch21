@@ -1,6 +1,10 @@
 package javabasics;
 
 public class ExecutionOrder {
+	int y = 10;
+	int x = 20;
+	static int w = 30;
+	static int z = 40;
 	static int a = m1();
 	public static int m1() {
 		System.out.println(a);

@@ -1,4 +1,4 @@
-package javabasics;
+/*package javabasics;
 
 public class StaticMembers {
 
@@ -45,4 +45,4 @@ public class StaticMembers {
 		String n = sm.name;
 	}
 
-}
+}*/
