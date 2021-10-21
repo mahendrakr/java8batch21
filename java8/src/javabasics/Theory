@@ -80,7 +80,16 @@ How to create a method in java ?
 	2. constructor name must be same as class name where as method name could be anything .
 	3. constructor dose not have return type (even though void )where as method must have a return type.
 	 
-	
+	Compiler's Activities -
+	1. It converts Source code(.java) to Byte code(.class file or intermediate code).
+	2. It will scan from top to bottom , if it finds any compilation errors then it will display the errors on the console and
+	  .class file  will not be generated .
+	3. If there is no  any compilation error then only  .class file will be generated and it will place
+	    default constructor if there is no constructor found .
+	    
+	    
+	    
+	    
 	
 	
 	
