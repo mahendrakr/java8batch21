@@ -1,0 +1,7 @@
+Question 1 :
+Difference between bitwise and short circuit operator
+1. performance :- short circuit operator is more efficient with bitwise.
+2. apply :- bitwise operator can apply on boolean and integral type but short circuit 
+            can apply only on boolean type.
+          
+            
