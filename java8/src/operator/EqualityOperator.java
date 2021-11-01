@@ -13,6 +13,9 @@ public class EqualityOperator {
     String s3 = "aadi";
     String s4 = "aadi";
     System.out.println(s3==s4);
+    String s5 = new String ("Anushka");
+    String s6 = new String ("Anushka");
+    System.out.println(s5 == s6);
 	}
 
 }

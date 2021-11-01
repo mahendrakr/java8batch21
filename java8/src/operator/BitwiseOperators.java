@@ -9,8 +9,9 @@ public class BitwiseOperators {
     System.out.println(5 | 6);
     System.out.println(4 ^ 5);
     System.out.println(5 ^ 6);
+    System.out.println(3 & 4);
     
-    System.out.println(true && false);
+    System.out.println(false && true);
     
     
     
