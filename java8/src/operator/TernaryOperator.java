@@ -10,6 +10,12 @@ public class TernaryOperator {
     System.out.println(ch);
     String r=20<30 ?(10>5?"Addy":"Annu") :"Anushka";
     System.out.println(r);
+    byte b2=20;
+    int i2=150;
+    byte b3=(byte)i2;
+    System.out.println(b3);
+    //10010110
+    
     
     
 	}
