@@ -7,7 +7,7 @@ package operator;
 public class ArithmeticOperators {
 
 	public static void main(String[] args) {
-    //       System.out.println(10/0);
+      //    System.out.println(10/0);
 			System.out.println(15/3);
 			byte b = 10;
 			byte c = 20;

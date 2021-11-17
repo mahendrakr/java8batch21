@@ -13,7 +13,7 @@ public class ShiftOperator {
     long c=a<<2;
     long d=a>>>2;
     byte f=4;
-    System.out.println(4>>>1);
+    System.out.println(4>>>1); 
     
     
     
