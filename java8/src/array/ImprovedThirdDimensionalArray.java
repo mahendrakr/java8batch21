@@ -20,7 +20,8 @@ public class ImprovedThirdDimensionalArray {
     System.out.println(a[1][0][1]);
     System.out.println(a[1][2][0]);
     System.out.println("********************");
-    for(int [] [] i:a) {
+    
+    	for(int [] [] i:a) {
     	for(int [] j:i) {
     		for(int k:j) {
     			System.out.println(k);
