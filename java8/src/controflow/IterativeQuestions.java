@@ -28,6 +28,7 @@ public static void main(String[] args) {
 	IterativeQuestions i1=new IterativeQuestions();
 	//i1.printTable(5);
 	i1.factorial(5);
+	for(; ;);
 	
 	
 	
