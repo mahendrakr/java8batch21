@@ -9,8 +9,50 @@ package array;
  *
  */
 public class Test {
+	/**
+	 * Steps - 1. Traverse the array .
+	 *         2. Match the given id in the given array.
+	 *         3. If match return the Name.
+	 *         4. If id doesn't match go to next iteration and repeat step 3 & 4 till 
+	 *            end of the loop.
+	 *         5. After completion of iteration if id doesn't match then return id not 
+	 *            found.   
+	 *        
+	 * @param arr
+	 * @param id
+	 * @return
+	 */
+	public static String getNameById(Student[] arr,int id) {
+		for(Student s:arr) {
+			if(s.id==id) {
+				return s.name;
+			}
+		}
+		return "id not found";
+		
+	}      
+	/**
+	 * Steps - 1. Traverse the array .
+	 *         2. Match the name in the given array.
+	 *         3. If match return phone number .
+	 *         4. If name doesn't match go to next iteration and repeat step 3 & 4 till end of loop.
+	 *         5.After completion of iteration id phone number doesn't match then return -1.
+	 * @param arr
+	 * @param name
+	 * @return
+	 */
+	public static long getPhoneNumberByName(Student[] arr,String name) {
+		for(Student s:arr) {
+			if(s.name==name) {
+				return s.phoneNumber;
+			}
+			
+			}
+		return -1;
+	}
 
 	public static void main(String[] args) {
+		
     Student[] arr= new Student[5];
     arr[0]=new Student(1,"Anamika",8602546990l);
     arr[1]=new Student(2,"Anushka",7566341234l);
@@ -27,10 +69,15 @@ public class Test {
     }
     
     }
+    String name= getNameById(arr, 4);
+    System.out.println(name);
+    long phoneNumber = getPhoneNumberByName(arr, "Anamika");
+    System.out.println(phoneNumber);
+    }
     
     
     	
     		
 	}
 
-}
+
