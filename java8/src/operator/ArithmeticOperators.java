@@ -22,6 +22,7 @@ public class ArithmeticOperators {
 			System.out.println(10.0/0);
 			System.out.println(10.0/0.0);
 			System.out.println(-10.0/0);
+			//
 	}
 
 }
