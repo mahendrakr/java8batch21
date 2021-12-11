@@ -25,6 +25,14 @@ public class InstanceV {
 		InstanceV iv = new InstanceV();
 		int a = iv.a;
 		System.out.println(a);
+		String name=iv.getName();
+		System.out.println(name);
+		int id=iv.getId();
+		System.out.println(id);
+        InstanceV.x= iv.getX();
+        System.out.println(x);
+         
+		
 	} 
 
 	
