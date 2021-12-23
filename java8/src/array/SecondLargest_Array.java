@@ -1,4 +1,4 @@
-package homework;
+package array;
 
 public class SecondLargest_Array {
 	/**
