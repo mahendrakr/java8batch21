@@ -9,7 +9,10 @@ public class Test {
 		System.out.println(s.getID());
 		System.out.println(s.getName());
 		System.out.println(s.getPhoneNo());
-	}
+		s.setAge(-10);
+		System.out.println("**********");
+        System.out.println(s.getAge());	
+        }
 
 }
 
