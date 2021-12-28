@@ -1,4 +1,4 @@
-package Encapsulation;
+package encapsulation;
 /**
  * In method overloading , method selection rules :
  * 1. Compiler will find exact match.

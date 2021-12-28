@@ -1,4 +1,4 @@
-package Encapsulation;
+package encapsulation;
 /**
  * It is a mechanism of wrapping variable and methods in a unit , where class represents the unit. 
  * @author adity

@@ -1,4 +1,4 @@
-package Encapsulation;
+package encapsulation;
 /**
  * Method Overloading rules :
  * 1. Methods name must same.

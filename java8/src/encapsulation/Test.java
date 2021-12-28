@@ -1,6 +1,7 @@
 package encapsulation;
 
 public class Test {
+
 	public static void main(String[] args) {
 		Student s =new Student();
 		
@@ -11,9 +12,7 @@ public class Test {
 		System.out.println(s.getPhoneNo());
 		s.setAge(-10);
 		System.out.println("**********");
-        System.out.println(s.getAge());	
-        }
+		System.out.println(s.getAge());
+	}
 
 }
-
-

@@ -1,4 +1,4 @@
-package Encapsulation;
+package encapsulation;
 
 public class ConfusionHacks {
 	public void m1(int a, Short s) {

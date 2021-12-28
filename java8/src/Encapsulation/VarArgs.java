@@ -1,4 +1,4 @@
-package Encapsulation;
+package encapsulation;
 
 public class VarArgs {
 	public void m1(int...a) {

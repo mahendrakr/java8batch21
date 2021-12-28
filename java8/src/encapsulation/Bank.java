@@ -1,5 +1,9 @@
 package encapsulation;
-
+/**
+ * It is a mechanism of wrapping variable and methods in a unit , where class represents the unit. 
+ * @author adity
+ *
+ */
 public class Bank {
 	private String bankName="SBI";
 	private long accNo=4567;
@@ -26,6 +30,7 @@ public class Bank {
 		this.balance = balance;
 	}
 	public long getWithdraw() {
+		
 		return withdraw;
 	}
 	public void setWithdraw(long withdraw) {
@@ -52,5 +57,3 @@ public class Bank {
 	}
 	
 }
-
-
