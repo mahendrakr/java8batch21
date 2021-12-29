@@ -1,4 +1,4 @@
-package Encapsulation;
+package encapsulation;
 
 public class ConstructorChaining {
 	public ConstructorChaining(int a) {

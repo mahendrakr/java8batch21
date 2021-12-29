@@ -1,4 +1,4 @@
-package Encapsulation;
+package encapsulation;
 
 public class MethodChaining {
 	public void m1() {
