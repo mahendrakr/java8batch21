@@ -1,4 +1,4 @@
-package Encapsulation;
+package encapsulation;
 /**
  * Scoping means visibility
  * Local variable : local variables get memory inside stack.
