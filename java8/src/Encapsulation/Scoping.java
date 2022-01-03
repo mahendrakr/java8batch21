@@ -8,6 +8,24 @@ package encapsulation;
  *
  */
 public class Scoping {
+	static int a=10;
+	int b=20;
+	static {
+		System.out.println(a);
+//		System.out.println(b); "can't call instance variable in static"
+	}
+	{
+		System.out.println(a);
+		System.out.println(b);
+	}
+	static void m1() {
+		System.out.println(a);
+//		System.out.println(b);	can't call instance variable in static
+	}
+	void m2(){
+		System.out.println(a);
+		System.out.println(b);
+	}
 	public void doSomething(final int a, String s) {
 		System.out.println(a);
 //		System.out.println(c);
