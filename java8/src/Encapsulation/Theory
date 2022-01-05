@@ -1,6 +1,0 @@
-Difference between constructor chaining and method chaining :
-	1. Recursion could be identified at compile time in constructor chaining but in method chaining it could be identified at run time.
-	2. In constructor chaining if you want to call other constructor then , you have to use "this" keyword and it should be the 1st statement of a constructor, but in method chaining 
-		you can call another method by it's name and there is no restriction that method calling statement could be the 1st statement or the last statement.
-		
-OBJECT LIFE CYCLE :
