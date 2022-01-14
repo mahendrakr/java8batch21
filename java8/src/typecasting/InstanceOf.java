@@ -11,6 +11,14 @@ public class InstanceOf {
 		}
 		else {
 			System.out.println("false");
+			
+		Object o1=new Ankush();
+		if(o1 instanceof Dada) {
+			System.out.println("True");
+		}
+		else {
+			System.out.println("False");
+		}
 		}
 
 	}

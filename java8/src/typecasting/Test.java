@@ -14,6 +14,14 @@ public class Test {
 		Papa d6 = (Aadi)d;
 		Papa p = new Aadi();
 		Papa c = (Papa)p;
+		
+		Object d1=new Ankush();
+		Ankush a1=(Ankush)d1;
+		a1.m4();
+		
+		
 	}
+	
+	
 
 }
