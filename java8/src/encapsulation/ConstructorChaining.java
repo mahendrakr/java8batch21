@@ -10,7 +10,7 @@ public class ConstructorChaining {
 		System.out.println("int,int");
 	}
 	public ConstructorChaining(double a) {
-//		this(50);
+//	this(50);
 		System.out.println("double");
 	}
 	public static void main(String[] args) {

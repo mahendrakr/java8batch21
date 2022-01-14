@@ -19,7 +19,7 @@ public class ThisAndSuper extends Super {
 		{}
 	public static void main(String[] args) {
 		ThisAndSuper t = new ThisAndSuper(40);
-		this.m1();
+	//	this.m1();
 	}
 	
 	
