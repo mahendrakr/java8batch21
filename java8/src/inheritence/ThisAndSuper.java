@@ -8,7 +8,12 @@ package inheritence;
 public class ThisAndSuper extends Super {
 	int a = 10;
 	static int b= 20;
+	ThisAndSuper(){
+//		this(10);
+		super();
+	}
 	ThisAndSuper(int a){
+		System.out.println(super.a);
 		
 		System.out.println(this.a);
 	}
