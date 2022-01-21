@@ -18,7 +18,8 @@ public class InterviewQuestions {
 			}
 		}
 		// Format the array in a sentence .
-		
+		String join = String.join(" ", arr);
+		System.out.println("join "+join);
 		String str="";
 		for(int i=0;i<arr.length;i++) {
 			// System.out.print(arr[i] + " ");
@@ -31,10 +32,20 @@ public class InterviewQuestions {
 		// System.out.println(str.length());
 		return str;
 	}
+	public static String reverseWordV2(String sentence, String word) {
+		String[] arr=sentence.split(" ");
+		for(int i=0;i<arr.length;i++) {
+			if(arr[i].equals(word)) {
+				arr[i]=reverseWord(word);
+				
+			}
+		}
+		return String.join(" ", arr);
+	}
 	public static void main(String[] args) {
 		String str="kaho Na Pyaar Hai";
 		System.out.println(str.length());
-		String reverseWord = reverseWord(str, "Pyaar");
+		String reverseWord = reverseWordV2(str, "Pyaar");
 		System.out.println(reverseWord);
 	}
 }

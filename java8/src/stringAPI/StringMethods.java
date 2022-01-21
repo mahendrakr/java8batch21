@@ -1,5 +1,36 @@
 package stringAPI;
-
+/**
+ * length()
+isEmpty()
+charAt()
+getChars()
+equals()
+contentEquals()
+equalsIgnoreCase()
+compareTo()
+compareToIgnoreCase()
+startsWith()
+endsWith()
+indexOf()
+lastIndex()
+subString()
+concat()
+replace()
+matches()
+contains()
+split()
+join()
+toLowerCase()
+toUpperCase()
+trim()
+toString()
+toCharArray()
+format()
+valueOf()
+intern() this method is used to call object from SCP.
+ * @author adity
+ *
+ */
 public class StringMethods {
 	public static void main(String[] args) {
 	String s1="Anushka Bansal";
