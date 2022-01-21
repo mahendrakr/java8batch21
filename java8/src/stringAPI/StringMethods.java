@@ -24,5 +24,9 @@ public class StringMethods {
 		}
 	}
 		}
+	System.out.println("##########");
+	String s3="Shreya";
+	System.out.println(s3.charAt(3));
+	
 }
 }
