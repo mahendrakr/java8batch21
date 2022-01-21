@@ -19,7 +19,9 @@ public class StringMethods {
 	String[] arr = s2.split(" ");
 	for(String s:arr) {
 	if(s.equals("name")) {
-		
+		for(int i=s.length()-1;i>=0;i--) {
+			System.out.println(s.charAt(i));
+		}
 	}
 		}
 }
