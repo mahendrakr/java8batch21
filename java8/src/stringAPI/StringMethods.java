@@ -1,5 +1,36 @@
 package stringAPI;
-
+/**
+ * length()
+isEmpty()
+charAt()
+getChars()
+equals()
+contentEquals()
+equalsIgnoreCase()
+compareTo()
+compareToIgnoreCase()
+startsWith()
+endsWith()
+indexOf()
+lastIndex()
+subString()
+concat()
+replace()
+matches()
+contains()
+split()
+join()
+toLowerCase()
+toUpperCase()
+trim()
+toString()
+toCharArray()
+format()
+valueOf()
+intern() this method is used to call object from SCP.
+ * @author adity
+ *
+ */
 public class StringMethods {
 	public static void main(String[] args) {
 	String s1="Anushka Bansal";
@@ -19,7 +50,9 @@ public class StringMethods {
 	String[] arr = s2.split(" ");
 	for(String s:arr) {
 	if(s.equals("name")) {
-		
+		for(int i=s.length()-1;i>=0;i--) {
+			System.out.println(s.charAt(i));
+		}
 	}
 		}
 	System.out.println("##########");

@@ -4,8 +4,8 @@ package stringAPI;
  * 2. What are the benefit of immutable class?
  * 3. How can you make your own immutable class?
  * 4. What is string constant pool (scp)?
- * 5. Difference between String,StringBuilder and StringBuffer?
- * 5. 
+ * 5. Difference between String ,StringBuilder and StringBuffer?
+ * 6. 
  * @author adity
  *
  */
