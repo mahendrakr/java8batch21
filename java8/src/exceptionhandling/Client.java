@@ -9,7 +9,13 @@ public class Client {
 	} catch (MyException e) {
 		System.out.println("name doesnot exist");
 	}
-	   String email = s.getEmail("aadi1234");
-	   System.out.println(email);
+	   try {
+		   String email = s.getEmail("aadi1234");
+		   System.out.println(email);
+	   }
+	   catch(RecordNotFoundException e) {
+		   System.out.println(e.getMessage());
+	   }
+	  
 	}
 }

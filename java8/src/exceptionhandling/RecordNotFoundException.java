@@ -4,8 +4,13 @@ public class RecordNotFoundException extends RuntimeException {
       private String message;
 
 	public RecordNotFoundException(String message) {
-		super();
+		super(message);
 		this.message = message;
 	}
+
+//	public String getMessage() {
+//		return message;
+//	}
+	
       
 }

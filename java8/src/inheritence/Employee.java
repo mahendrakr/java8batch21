@@ -1,5 +1,7 @@
 package inheritence;
 
+import java.io.FileNotFoundException;
+
 public class Employee extends Person{
 	public void m1() {
 		System.out.println("child");
@@ -19,7 +21,14 @@ public class Employee extends Person{
 //	public void m4() {
 //		System.out.println("child m4");
 //	}
-	public static void main(String[] args) {
+	@Override
+	public void m5() throws FileNotFoundException {
+		System.out.println("child m5");
+	}
+	 public void m6() throws RuntimeException {
+		 System.out.println("child m6");
+	 }
+	public static void main(String[] args)throws Exception {
 		Person p=new Employee(); // resolution happen at runtime.
 		p.m1();
 		Person p1=new Person();
@@ -29,5 +38,7 @@ public class Employee extends Person{
 		//p.m2(); //not valid cause you can't override private method(refer=parent)
 		e.m2();
 		p.m3();
+		p.m5();
+		p.m6();
 	}
 }

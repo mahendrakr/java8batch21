@@ -1,5 +1,7 @@
 package inheritence;
 
+import java.io.FileNotFoundException;
+
 public class Person {
 	public void m1() {
 		System.out.println("parent");
@@ -16,5 +18,11 @@ public class Person {
 	 }
 	 public final void m4() {
 		 System.out.println("parent m4");
+	 }
+	 public void m5() throws FileNotFoundException {
+		 System.out.println("parent m5");
+	 }
+	 public void m6() throws ArithmeticException {
+		 System.out.println("parent m6");
 	 }
 }
