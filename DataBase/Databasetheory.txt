@@ -1,0 +1,50 @@
+Data :Facts that can be recorded.
+   ex:Text,Number,Images,Video etc. 
+DataBase : Collection of related data. 
+DBMS :It is a set of programs used to manage and access database
+      in efficient way. 
+RDBMS(Relational DBMS) :It is a collection of rows and columns.
+    : RDBMS(SQL database/OLTP)
+        OLTP - Online Transcation Processing .
+   ex: Oracle , Mysql,Microsoft sql server and IBM DB2	etc.
+No-SQL Database: 
+  a.key-value storage(in memory database/cache)
+    ex: Redis,Hazelcast,Gemfire etc.
+  b.Document oriented database(Json format)
+    ex: MongoDB
+  c.Graph Database
+    ex:Neo4J
+  d.Wide column storage 
+    ex:MariaDB,Cassandra 
+  e.For logging
+    ex: Elastic Search 
+RDBMS/MySQL :
+            R=Relation=Table=Row & Column .
+Arity: No.of fields of the table .
+       No.of columns.
+    ex:sid,sname,branch.
+Tuple(record):A row in a table is called a tuple.
+Cardinality:No.of records in the table. 
+Relational Schema:Abstract details of table.
+Student(sid,sname,branch).
+Schema=DataBase
+Relational Object(mysql object)
+ex:Table,View,Index,Trigger.
+Codd Rule:
+No two records of the table shoud be same in DBMS.
+To implement this rule,every record should have a candidate key.
+Candidate key :Minimum set of attribute used to differenciate records
+               of the table.    
+Data types:
+1.String related datatype: 
+  a.char( 0 to 255)
+  b.varchar(0 to 65535) 
+  c.enum 
+2.Number related datatype:
+  a.int 
+  b.bigint
+  c.Fixed point: numeric and decimal.
+  d.Floating point :float and double.   
+
+  	
+	 
