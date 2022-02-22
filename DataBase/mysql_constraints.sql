@@ -10,6 +10,8 @@ CREATE TABLE course (
     fee INT,
     duration INT
 );
+alter table course add unique key(cname);  #H.W.
+alter table course add default(fee);
 CREATE TABLE course (
     cid INT ,
     cname VARCHAR(255),
@@ -37,6 +39,7 @@ address varchar(255),
 cid int,
 foreign key(cid) references course(cid) on  delete cascade 
 );
+
 alter table student1 change phone_no phone_no int(11);
 insert into student1 values(101,'Yashvani','2000-10-30',902546990,'Jabalpur',1);
 insert into student1 values(102,'Anamika','2001-11-20',902546990,'Sadar',2);
