@@ -28,6 +28,7 @@ use mydb;
 create table student1 (sid int, sname varchar(50), dob date,city varchar(20));
 insert into student values(1,'ankush','2002-01-12','bhopal','M',123);
 insert into student(sid,sname,city,phone_no) values(1,'aadi','sitamarhi',456);
+insert into student(sid,sname,city,dob,phone_no) values(2,'xyz','pune',1999-02-01,789);
 select * from student;
 select sname,dob from student;
 truncate table student;
