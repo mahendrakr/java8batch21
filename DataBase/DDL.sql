@@ -23,14 +23,30 @@
 -- ans. 
 -- Q9. Difference between primary key and unquie key?
 -- ans. 
+-- Q10.What is a difference between Change and Modify?
+-- ans.With the help of modify command you can not rename the column but with the help of change you can .
+--  
 Create database mydb;
 use mydb;
-create table student1 (sid int, sname varchar(50), dob date,city varchar(20));
+CREATE TABLE student1 (
+    sid 	INT,
+    sname 	VARCHAR(50),
+    dob 	DATE,
+    city	VARCHAR(20)
+);
+insert into student1 values(1,'Yashvani','2002-10-30','Jabalpur');
 insert into student values(1,'ankush','2002-01-12','bhopal','M',123);
 insert into student(sid,sname,city,phone_no) values(1,'aadi','sitamarhi',456);
 insert into student(sid,sname,city,dob,phone_no) values(2,'xyz','pune',1999-02-01,789);
 select * from student;
 select sname,dob from student;
+insert into student1(sid,sname,city,phone_no) values(1,'aadi','sitamarhi',456);
+-- insert into student(sid,gender)
+SELECT 
+    sname, dob
+FROM
+    student;
+    select * from student;
 truncate table student;
 drop table student;
 rename table student1 to student;
@@ -39,3 +55,4 @@ alter table student add primary key (sid);
 alter table student add column phone_no int(11);
 alter table student drop phone_number;
 alter table student change phone_no phone_number int(10);
+alter table student change phone_number phone_no  int(10);
