@@ -1,5 +1,5 @@
 package api;
 
-public interface Y {
+public interface Y extends X{
 
 }

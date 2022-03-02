@@ -1,5 +1,5 @@
 package api;
 
-public class D {
+public class D extends C {
 
 }
