@@ -8,7 +8,7 @@ public class GenericAtMethod {
 	public static void m1(List<? extends B> list) {
 		// We can add only null value
 		list.add(null);
-//		 list.add(new B());
+//   	 list.add(new B());
 	}
 
 	public static void m2(List<? extends Y> list) {

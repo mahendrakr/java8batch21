@@ -8,7 +8,7 @@ public class MethodNames {
 	public static void main(String[] args)   {
 		Class<?> name =null;
 		try {
-			name = Class.forName("java.util.List");
+			name = Class.forName("java.util.Set");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
