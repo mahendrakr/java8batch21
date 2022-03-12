@@ -16,7 +16,8 @@ import java.util.ListIterator;
  * - ArrayList is implemented on Array data structure but LinkedList is implemented on doubly LinkedList.
  * 
  * 3. How does ArrayList internally work?
- * 4.Difference between Iterator & ListIterator?
+ * 4. Difference between Iterator & ListIterator?
+ * 5. 
  * 
 add
 remove
