@@ -1,6 +1,7 @@
 package collection;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
@@ -66,10 +67,18 @@ public class MyList {
 		System.out.println(list1);
 		System.out.println(list1.contains(200));
 		ListIterator<Integer> listIterator = list1.listIterator();
-		while(listIterator.hasNext()) {
-			System.out.println(listIterator.next());
-		}
-		//list1.sort(null);
+		//while(listIterator.hasNext()) {
+		//	System.out.println(listIterator.next());
+	//	}
+		// int compare(T o1, T o2);
+		Comparator<Integer> c=(a,b)->{ return a-b;};
+		list1.sort(c);
+		System.out.println(list1);
+		// two ways to run this:
+		Comparator<Integer> c1=(a,b)->(b-a);
+		list1.sort(c1);
+		System.out.println(list1);
+		
 		
 		
 	}
