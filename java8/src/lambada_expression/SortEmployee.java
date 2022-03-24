@@ -7,7 +7,7 @@ import java.util.TreeSet;
 
 public class SortEmployee implements Comparator<Employee> {
 	public static void main(String[] args) {
-		Set<Employee> s1=new TreeSet<>();
+		Set<Employee> s1=new TreeSet<>(new SortEmployee());
 		s1.add(new Employee(11,"Aadi",25000));
 		s1.add(new Employee(12,"Ankhush",35000));
 		s1.add(new Employee(13,"Anamika",22000));
@@ -16,20 +16,13 @@ public class SortEmployee implements Comparator<Employee> {
 		Iterator<Employee>iterator=s1.iterator();
 		while(iterator.hasNext()) {
 			Employee next = iterator.next();
-			System.out.println(next.getId() +" "+next.getName() +" "+next.getSalary());
+			System.out.println(next.getEid() +" "+next.getName() +" "+next.getSalary());
 		}
-	}
-		
-		
-		
+	}		
 //	}
-
-
-
-
 @Override
 public int compare(Employee o1, Employee o2) {
-	return (o1.getSalary());
+	return (o1.getName().compareTo(o2.getName()));
 }
 
 }
